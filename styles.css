@@ -20,6 +20,20 @@ body {
   align-items: center;
   background-color: hsl(var(--hue), 100%, 20%);
 }
+#login-link{
+    border:1px solid black;
+    align-items: center;
+    background-color:azure;
+    padding:0px 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
+  }
 
 body.correct {
   --hue: var(--hue-correct);
